@@ -115,6 +115,8 @@ public abstract class BaseNavigateCommand extends AbstractCanvasGraphCommand {
         } else {
             canvas.disableHandlers();
         }
+
+
     }
 
     protected void addExpressionEditorToCanvasWidget() {

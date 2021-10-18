@@ -95,4 +95,10 @@ public interface Canvas<S extends Shape> {
      * Destroy whatever canvas state present, it will be no longer used.
      */
     void destroy();
+
+    /**
+     * Verify if the event handles of the canvas are enabled or not.
+     * @return true if it is enabled, false otherwise
+     */
+    boolean isEventHandlesEnabled();
 }
